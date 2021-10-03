@@ -3,6 +3,8 @@ import React from "react";
 export default function Home() {
   return (
     <div className="home">
+      {" "}
+      <br />
       <img
         className="logo"
         src="https://www.pngitem.com/pimgs/m/119-1196430_cookie-clipart-logo-png-cookie-logo-png-transparent.png"
