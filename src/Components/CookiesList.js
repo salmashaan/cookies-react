@@ -1,7 +1,11 @@
 import React from "react";
-import Cookies from "./Cookies";
+import cookiesData from "../Cookies";
+import Cookie from "./Cookie";
 
 export default function CookiesList() {
-  const cookies = cookiesData.map((cookies) => <cookie />);
-  return <div></div>;
+  const cookieList = cookiesData.map((cookie) => (
+    <Cookie cookieData={cookie} />
+  ));
+
+  return <div className="cookies-list"> {cookieList} </div>;
 }

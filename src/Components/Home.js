@@ -10,6 +10,9 @@ export default function Home() {
       />
       <h1> Cookies Menu </h1>
       <p> Pick and choose your favorite cookies from our grand selection!</p>
+      <br />
+      <h3> Please browse our selection here:</h3>
+      <br />
     </div>
   );
 }

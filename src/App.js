@@ -1,20 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Components/Home";
-import cookiesData from "./Cookies";
-import Cookie from "./Components/Cookie";
+import Home from "./components/Home";
+import CookiesList from "./components/CookiesList";
+// import cookiesData from "./Cookies";
 
 function App() {
-  let cookiesArray = cookiesData.map((cookie) => <Cookie info={cookie} />);
-
   return (
     <div className="body">
       <Home />
-      <h3> Please browse our selection here:</h3>
-      <br />
-      <div>{cookiesArray}</div>
+      <CookiesList />
     </div>
   );
 }
 
 export default App;
+// books={cookiesData}
